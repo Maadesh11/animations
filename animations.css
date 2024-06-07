@@ -1,0 +1,47 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transition: 4s;
+    animation-name: fam;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    animation-delay: 2s;
+    transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+    animation-direction:reverse;
+    
+
+
+}
+div:hover{
+    width: 430px;
+}
+body{
+    background-color: darkgrey;
+}
+@keyframes fam{
+   0%{
+    background-color: lightcoral;
+    
+   } 
+   20%{
+   background-color: lightpink;
+
+   }
+   40%{
+   background-color:  blue;
+   }
+   60%{
+   background-color:  blueviolet;
+   }
+   80%{
+    background-color: brown;
+   }
+   100%{
+    background-color: crimson;
+   }
+}
